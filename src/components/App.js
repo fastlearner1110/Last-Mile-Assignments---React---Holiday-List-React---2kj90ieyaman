@@ -41,9 +41,9 @@ class App extends Component {
     return (
       <div id="main">
         {/* Do not remove the main div */}
-        <ol type="location 1">
+        <ol type="1">
           {this.cityList.map((ele,index)=>{
-            return <li key={this.index+1}>{this.ele.name}({this.ele.country})</li>
+            return <li key={index+1}>{ele.name}({ele.country})</li>
           })}
         </ol>
       </div>
