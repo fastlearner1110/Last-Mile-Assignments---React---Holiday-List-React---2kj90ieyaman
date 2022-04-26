@@ -4,7 +4,7 @@ import '../styles/App.css';
 
 function App() {
 
-    cityList = [{ name: 'Goa', country: 'India' },
+    let cityList = [{ name: 'Goa', country: 'India' },
     { name: 'Amsterdam', country: 'Netherlands' },
     { name: 'New York', country: 'USA' },
     { name: 'Darjeeling', country: 'India' },
