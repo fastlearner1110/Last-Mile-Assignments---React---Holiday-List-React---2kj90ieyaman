@@ -43,7 +43,7 @@ class App extends Component {
         {/* Do not remove the main div */}
         <ol>
           {this.cityList.map((ele,index)=>{
-            return <li key='location${index+1}'>{ele.name}({ele.country})</li>
+            return <li key='location${index+1}'>{ele.included("India").name}({ele.included("India").country})</li>
           })}
         </ol>
       </div>
