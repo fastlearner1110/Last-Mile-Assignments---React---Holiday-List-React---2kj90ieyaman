@@ -44,7 +44,7 @@ function App() {
         {/* Do not remove the main div */}
         <ol type="1">
           {cityListIndian.map((ele,index)=>{
-            return <li key={`location${index+1}`}>{ele.name}</li>
+            return <li key={`location${index+1}`}>{ele.name}({ele.country})</li>
           })}
         </ol>
       </div>
